@@ -237,7 +237,7 @@ six = "*"
 
 [[package]]
 name = "lovely-pytest-docker"
-version = "0.2.1"
+version = "0.3.0"
 description = "Pytest testing utilities with docker containers."
 category = "dev"
 optional = false
@@ -245,6 +245,7 @@ python-versions = "*"
 
 [package.dependencies]
 pytest = "*"
+six = "*"
 
 [[package]]
 name = "markdown"
@@ -675,7 +676,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "e87736209655f9d089050801f95b6fb1053e753e47f20ff69f4c38c3eec11ac5"
+content-hash = "13ecb33d392fefc06817353eebeacded24a4bf3f4c378b8f893bbd29eaf95b23"
 
 [metadata.files]
 arrow = [
@@ -766,7 +767,7 @@ junit-xml = [
     {file = "junit_xml-1.9-py2.py3-none-any.whl", hash = "sha256:ec5ca1a55aefdd76d28fcc0b135251d156c7106fa979686a4b48d62b761b4732"},
 ]
 lovely-pytest-docker = [
-    {file = "lovely-pytest-docker-0.2.1.tar.gz", hash = "sha256:944ecf259c2144e1857e9ff1ac79cfaef88bd6aabf4e99cc16d64783345826f0"},
+    {file = "lovely-pytest-docker-0.3.0.tar.gz", hash = "sha256:b8333ae52faefc92ffaeed3e02d7664b7b02df999f621f1635cb6e3fbb7e145c"},
 ]
 markdown = [
     {file = "Markdown-3.3.4-py3-none-any.whl", hash = "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"},
